@@ -1,0 +1,11 @@
+def multiplication_of_num(num1,num2):
+    product=num1*num2
+    if product<=1000:
+        return product
+    else:
+        return num1+num2
+    
+result=multiplication_of_num(20,30)
+print("the result is:",result)
+result=multiplication_of_num(40,30)
+print("the result is:",result)
